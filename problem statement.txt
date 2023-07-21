@@ -1,0 +1,25 @@
+There is a tunnel of length L Height H and Width of 1 unit. 
+
+Some blocks of Length 1 unit width 1 unit and variable height are placed across the entire length of the tunnel. 
+
+The blocks are placed either at the base of the tunnel or suspended from the top.
+
+A small plane has to fly through the tunnel while navigating the blocks. 
+
+Assume that the plane can fit into the tunnel and has enough thrust to go above or below the obstacles.
+
+You are given 2 arrays of length N, first array represents height of blocks placed at base, and second array represents heights of blocks suspended from top.
+
+If height is 0 it means no block is placed at that location. 
+
+You need to help decide if the tunnel can be crossed.
+
+Input Format:
+
+Each input contains the following :
+
+An integer L and H, length of structure and height of structure.(1<= L, H <=10^5)
+
+Next Line have L integers denoting Height of blocks placed at base.
+
+Next Line has L integers denoting Height of height of blocks suspended from top
